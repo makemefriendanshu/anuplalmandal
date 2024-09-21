@@ -564,7 +564,7 @@ a.text-primary:hover {
     border-radius: 6px;
     width: 49.5%;
     border: 0;
-    margin-bottom: 1em;
+    margin: 4.5px 1.5px 5.5px 0px;
     padding: .5em 0;
     background-color: #2e8ece;
     display: inline;
@@ -581,4 +581,5 @@ a.text-primary:hover {
 
 .button-group {
     display: flex;
+    flex-wrap: wrap;
 }
