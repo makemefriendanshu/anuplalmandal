@@ -592,3 +592,19 @@ a.text-primary:hover {
 .video-container {
     justify-content: space-between;
 }
+
+
+.table-container {
+    justify-content: space-between;
+    margin: 0 0 25px 0;
+}
+
+.table {
+    margin: 0;
+}
+
+.table-title {
+    background-color: #9dd1e0;
+    color: #fff;
+    font-size: 1.5em;
+}
