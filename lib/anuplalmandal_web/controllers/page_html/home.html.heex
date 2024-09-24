@@ -62,7 +62,7 @@
         है, लेकिन जब उसका अभिलेखीय संरक्षण ही न किया जाए तो इसे हम क्या कहेंगे ?
       </p>
     </div> -->
-    <div class="row video-container">
+    <div class="row row-container">
       <div class="video">
         <iframe width="390" height="315" src="https://www.youtube.com/embed/b2ga42-6_e0"
           title="Bahurani 1940: Aana aana khel khilaune jee ko rijhaane aana (Kishore Sahu, Anuradha)" frameborder="0"
@@ -556,7 +556,7 @@
             <div class="ad-title m-auto">
               <h5>⁠रक्त और रंग</h5>
             </div>
-            <a class="ad-btn" href="javascript:void(0)" style="pointer-events: none;">संपर्क</a>
+            <a class="ad-btn" href="#call" >संपर्क</a>
           </div>
         </div>
       </div>
@@ -577,7 +577,7 @@
             <div class="ad-title m-auto">
               <h5>⁠समाज की बेदी पर</h5>
             </div>
-            <a class="ad-btn" href="javascript:void(0)" style="pointer-events: none;">संपर्क</a>
+            <a class="ad-btn" href="#call" >संपर्क</a>
           </div>
         </div>
       </div>
@@ -670,7 +670,7 @@
             <div class="ad-title m-auto">
               <h5>⁠सविता</h5>
             </div>
-            <a class="ad-btn" href="javascript:void(0)" style="pointer-events: none;">संपर्क</a>
+            <a class="ad-btn" href="#call" >संपर्क</a>
           </div>
         </div>
       </div>
@@ -691,7 +691,7 @@
             <div class="ad-title m-auto">
               <h5>वे अभागे</h5>
             </div>
-            <a class="ad-btn" href="javascript:void(0)" style="pointer-events: none;">संपर्क</a>
+            <a class="ad-btn" href="#call" >संपर्क</a>
           </div>
         </div>
       </div>
@@ -717,12 +717,32 @@
         </div>
       </div>
     </div>
-    
-    <div class="row video-container">
-      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mt-4" style="display: flex;justify-content: center;">
-        Website visit count : 
-        <div class="website-counter"> <%= assigns[:count] %> </div>
-     </div>
+
+    <div class="row row-container" id="call">
+      <section class="call-buton">
+        <a class="cc-calto-action-ripple" href="tel:+919205127294">
+          <i class="fa fa-phone"></i>
+        </a>
+        <div>Ravina Prakashan (RP)</div>
+        <div>+91 92051 27294</div>
+      </section>
+      <section class="call-buton">
+        <a class="cc-calto-action-ripple" href="tel:+919572364148">
+          <i class="fa fa-phone"></i>
+        </a>
+        <div>Sahitya Sansad (SS)</div>
+        <div>+91 95723 64148</div>
+      </section>
+    </div>
+
+    <div class="row row-container">
+      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mt-4"
+        style="display: flex;justify-content: center;">
+        Website visit count :
+        <div class="website-counter">
+          <%= assigns[:count] %>
+        </div>
+      </div>
       <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center mt-4">
         Created by
         <a href="https://ans-human.com" target="_blank" class="text-primary">www.ans-human.com</a>
